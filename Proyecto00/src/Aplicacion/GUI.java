@@ -57,10 +57,10 @@ public class GUI {
 		OyenteBoton oye=new OyenteBoton();
 		
 		
-		botonImagen = new JButton("Precione");
+		botonImagen = new JButton("Presione");
 		botonImagen.setFont(new Font("Tahoma", Font.PLAIN, 19));
 		botonImagen.setForeground(Color.BLACK);
-		botonImagen.setBackground(Color.YELLOW);
+		botonImagen.setBackground(Color.WHITE);
 		botonImagen.setBounds(0, 0, 259, 91);
 		botonImagen.addActionListener(oye);
 		frame.getContentPane().add(botonImagen);
